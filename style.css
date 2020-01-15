@@ -1,5 +1,5 @@
-/* 
- * Some Default Styles are provided for your convenience. 
+/*
+ * Some Default Styles are provided for your convenience.
  * You can start adding your own CSS below line 60.
  */
 
@@ -63,6 +63,40 @@ header {
   background-color: rgba(37, 37, 37, 0.8);
 }
 
-/* 
+/*
  * YOUR CSS:
  */
+ #about div {
+  display: flex
+}
+
+ #about p {
+  flex: 3;
+}
+#about #aboutmockup {
+  flex: 2;
+  align-self: flex-end;
+}
+
+#staff > div{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.staff-profile {
+  flex: 0 0 33%;
+  text-align: center
+}
+
+.staff-profile i {
+  font-size: 55px;
+}
+
+.staff-bio {
+  font-style: italic;
+}
+
+.staff-name {
+  font-size: 36px;
+}
